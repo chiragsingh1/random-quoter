@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  font-family: "Playfair Display", serif;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
+.navbar div {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: bisque;
+}
+.navbar div h2 {
+  color: black;
+  letter-spacing: 0.2rem;
+}
