@@ -3,6 +3,16 @@
   margin: 0;
 }
 
+.App {
+  height: 100vh;
+  width: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://source.unsplash.com/random/1920x1080");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
 .navbar {
   font-family: "Playfair Display", serif;
   /* display: flex;
@@ -12,15 +22,16 @@
   align-items: center; */
 }
 .navbar div {
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: bisque;
+  background-color: black;
+  opacity: 0.8;
 }
 .navbar div h2 {
-  color: black;
+  color: whitesmoke;
   letter-spacing: 0.2rem;
 }
