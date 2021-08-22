@@ -1,8 +1,8 @@
 # Random Quote || Fetches random quotes and displays it.
 
-# Check out the WebApp Below :
+## Check out the WebApp Below :
 
-# https://random-quote-chirag.netlify.app/
+### https://random-quote-chirag.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
