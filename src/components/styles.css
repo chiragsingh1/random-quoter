@@ -11,9 +11,19 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .navbar {
+  position: fixed;
+  height: 5%;
+  width: 100%;
+  top: 0;
+  /* overflow-x: hidden; */
+
   font-family: "Playfair Display", serif;
   /* display: flex;
   flex-wrap: wrap;
@@ -34,4 +44,40 @@
 .navbar div h2 {
   color: whitesmoke;
   letter-spacing: 0.2rem;
+}
+
+.quote-container {
+  background-color: rgb(7, 7, 7);
+  color: antiquewhite;
+  height: 40%;
+  width: 55%;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  margin-bottom: 20px;
+  padding: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+}
+.btn {
+  padding: 0.6em;
+  margin: 0.3em;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: none;
+}
+.btn:hover {
+  color: whitesmoke;
+  background-color: black;
 }

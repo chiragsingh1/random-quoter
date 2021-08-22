@@ -32,12 +32,10 @@ class Quoter extends Component {
   render() {
     return (
       <div className="quote-container">
-        <div className="quote">
-          <p>{this.state.quote}</p>
-        </div>
-        <div className="btn-container">
-          <button onClick={this.fetchQuote}>Fetch a new Quote!</button>
-        </div>
+        <p className="quote">"{this.state.quote}"</p>
+        <button onClick={this.fetchQuote} className="btn">
+          Fetch a new Quote!
+        </button>
       </div>
     );
   }
