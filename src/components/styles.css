@@ -81,3 +81,25 @@
   color: whitesmoke;
   background-color: black;
 }
+
+@media all and (max-width: 800px) {
+  .quote-container {
+    height: 60%;
+    width: 80%;
+  }
+  .quote {
+    margin-bottom: 50px;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+  }
+  .btn {
+    padding: 0.4em;
+    margin: 0.2em;
+    border: none;
+  }
+  .btn:hover {
+    color: whitesmoke;
+    background-color: black;
+  }
+}
